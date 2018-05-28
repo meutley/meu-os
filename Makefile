@@ -1,6 +1,8 @@
-OBJECTS = 				\
-		  loader.o		\
-		  kernel_main.o	\
+OBJECTS = 						\
+		  loader.o				\
+		  kernel_main.o			\
+		  descriptor_table.o	\
+		  common.o				\
 		  write.o
 
 CC = gcc
